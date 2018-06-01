@@ -1,0 +1,54 @@
+/* configurações de layout */
+html, body{
+    height: 100%;
+}
+
+/* configurações de layout */
+body{
+    border: 1px solid red;
+    padding-top: 70px;
+    background: url("../../images/capa.png"),
+    url("../../images/ruido.png"),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+/* configurações de layout */
+.img-logo{
+    width: 132px;
+    height: 32px;
+    display: block;
+    background: url("../../images/spotify.svg") no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+/* configurações de layout */
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+/* configurações de layout */
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+/* configurações de layout */
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+/* configurações de layout */
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+/* configurações de layout */
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
+}
